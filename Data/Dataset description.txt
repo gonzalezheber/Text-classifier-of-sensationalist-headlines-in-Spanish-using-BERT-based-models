@@ -1,0 +1,45 @@
+ESPAÑOL - SPANISH:
+DESCRIPCIÓN DEL CONJUNTO DE DATOS:
+Se presenta un conjunto de datos de encabezados sensacionalistas y no sensacionalistas relacionados al ámbito de la salud. Contiene 2200 elementos, de los cuales 1080 pertenecen a la clase 1 y 1120 a la clase 0. Cuenta con las siguientes columnas:
+ - Encabezado:
+	El texto del encabezado recopilado. Sin ningún tipo de edición o preprocesamiento
+ - Enlace:
+	El hipervínculo al artículo cuyo encabezado fue recopilado. Es ajeno al proyecto y al proceso de recopilación si el medio de comunicación decidió cambiar el titular del artículo posteriormente a la recolección del mismo.
+ - Fuente: 
+	Medio de comunicación que publicó el artículo que contiene el titular. En este caso, existen tres posibilidades: universal, laprensa o milenio
+ - Fecha:
+	Fecha de publicación del artículo, según aparecía en el sitio web de la fuente al momento de la recolección (en DD-MM-AAAA)
+ - Clase:
+	En esta columna se clasificó manualmente a cada encabezado como sensacionalista o no. En este caso, un 1 representa la clase sensacionalista, mientras que un 0 lo contrario.
+
+El conjunto de datos está ordenado por defecto de manera ascendente por la columna de fecha.
+
+DESCARGO DE RESPONSABILIDAD:
+La clasificación de este conjunto de datos fue hecha de manera manual, utilizando criterios de varios autores. Dichos criterios estarán disponibles en un reporte técnico de investigación y probablemente en un capítulo del libro DA&CI 2023: Data Analytics and Computational Intelligence: Novel Models, Algorithms and Applications.
+La clasificación de sensacionalismo nunca estará exenta de controversia, ya que diversos factores sociales pueden tener un peso muy importante en el criterio personal de clasificación.
+El presente conjunto de datos no tiene la intención de evaluar de ninguna manera la cobertura mediática que ninguno de estos medios de comunicación ofrece u ofrecía en ningún lapso de tiempo.
+Los autores del mismo se deslindan de cualquier acción política, social, económica o de cualquier tipo que sea ajena a lo académico referente al uso del conjunto de datos presentado.
+	
+
+ENGLISH:
+DATA SET DESCRIPTION:
+A data set of sensational and non-sensational health-related headlines is presented. It contains 2200 items, of which 1080 belong to class 1 and 1120 to class 0. It has the following columns:
+
+ - Encabezado:
+	The text of the collected headline. Without any editing or preprocessing.
+ - Enlace:
+	The hyperlink to the article whose headline was collected. It is unrelated to the project and the collection process if the media outlet decided to change the article's title after the collection.
+ - Fuente: 
+	Media outlet that published the article of each headline. In this case, there are three possibilities: universal, laprensa, or milenio.
+ - Fecha:
+	Date of publication of the article, as it appeared on the source's website at the time of collection (in DD-MM-YYYY format).
+ - Clase:
+	In this column, each headline was manually classified as sensational or not. In this case, a 1 represents the sensational class, while a 0 represents the non-sensational class.
+
+The data set is sorted by default in ascending order by the date column.
+
+DISCLAIMER:
+The classification of this data set was done manually, using criteria from various authors. These criteria will be available in a technical research report and possibly in a chapter of the book DA&CI 2023: Data Analytics and Computational Intelligence: Novel Models, Algorithms, and Applications.
+The classification of sensationalism will never be free of controversy since various social factors may have a significant impact on personal criteria used to classify.
+This data set is not intended to evaluate in any way the media coverage that any of these media outlets offer or offered at any time.
+The authors of the data set disclaim any political, social, economic, or any other type of action that is unrelated to the academic use of the presented data set.
